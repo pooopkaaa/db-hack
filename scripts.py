@@ -3,7 +3,6 @@ import sys
 import argparse
 import random
 import django
-from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
 django.setup()
